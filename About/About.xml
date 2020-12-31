@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Arrow Please - Faction Addon (Continued)</name>
+  <packageId>Mlie.ArrowPleaseFactionAddon</packageId>
+  <author>ianchen31</author>
+  <url>https://github.com/emipa606/ArrowPleaseFactionAddon</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Mlie.ArrowPlease</packageId>
+      <displayName>Arrow Please (Continued)</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2064675036</steamWorkshopUrl>
+      <downloadUrl>https://github.com/emipa606/ArrowPlease/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Mlie.ArrowPlease</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of ianchen31 mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1556416223
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/ArrowPleaseFactionAddon][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+Require "Arrow Please" to work.
+This mod adds three medieval factions, a civil, a rough, and a raider type, for a more medieval rimworld.
+The mod does not remove any vanilla factions, but if you do want to experience a full medieval round, consider using Faction Control by Rainbeau Flambe, which can be used to remove unwanted factions.
+
+The civil and rough medieval faction are similar with vanilla ones. Raider type, or bandits, also worked out like vanilla pirates, except that bandits love to use flaming weapons.
+
+Note that the added factions DO NOT carry weapons from Medieval Times, since they're using a different weapon tag.
+If encountering any bugs, please inform me, I'll fix them as fast as I can.
+
+Languages:
+English
+繁體中文
+简体中文</description>
+</ModMetaData>

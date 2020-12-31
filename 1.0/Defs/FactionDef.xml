@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="HumanFactionBase" Name="MedievalBase" Abstract="True">
+    <pawnSingular>medieval settler</pawnSingular>
+    <pawnsPlural>medieval settlers</pawnsPlural>
+    <listOrderPriority>25</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <expandingIconTexture>World/WorldObjects/MedievalSettlement</expandingIconTexture>
+    <geneticVariance>0.1</geneticVariance>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <leaderTitle>lord</leaderTitle>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li>
+        <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <caravanTraderKinds>
+      <li>Caravan_Medieval_BulkGoods</li>
+      <li>Caravan_Medieval_WarMerchant</li>
+      <li>Caravan_Medieval_Slaver</li>
+      <li>Caravan_Medieval_Explorer</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Medieval_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Medieval_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Medieval_Peasant>10</Medieval_Peasant>
+          <Medieval_Archer>10</Medieval_Archer>
+          <Medieval_Warrior>10</Medieval_Warrior>
+          <Medieval_Crossbowman>10</Medieval_Crossbowman>
+          <Medieval_EliteArcher>10</Medieval_EliteArcher>
+          <Medieval_Knight>5</Medieval_Knight>
+          <Medieval_Mercenary>10</Medieval_Mercenary>
+          <Medieval_Royal>3</Medieval_Royal>
+          <Medieval_Lord>1</Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Medieval_Archer>10</Medieval_Archer>
+          <Medieval_Crossbowman>15</Medieval_Crossbowman>
+          <Medieval_EliteArcher>5</Medieval_EliteArcher>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Medieval_Peasant>20</Medieval_Peasant>
+          <Medieval_Warrior>20</Medieval_Warrior>
+          <Medieval_Knight>5</Medieval_Knight>
+          <Medieval_Royal>3</Medieval_Royal>
+          <Medieval_Lord>1</Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, royal charge-->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <Medieval_Knight>15</Medieval_Knight>
+          <Medieval_Royal>10</Medieval_Royal>
+          <Medieval_Lord>1</Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, mercenaries only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Medieval_Mercenary>30</Medieval_Mercenary>
+        </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Medieval_Peasant>20</Medieval_Peasant>
+          <Medieval_Archer>20</Medieval_Archer>
+          <Medieval_Warrior>10</Medieval_Warrior>
+          <Medieval_Crossbowman>10</Medieval_Crossbowman>
+          <Medieval_EliteArcher>10</Medieval_EliteArcher>
+          <Medieval_Knight>5</Medieval_Knight>
+          <Medieval_Royal>3</Medieval_Royal>
+          <Medieval_Lord>1</Medieval_Lord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Medieval_Trader>1</Medieval_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <options>
+          <Medieval_Warrior>10</Medieval_Warrior>
+          <Medieval_Crossbowman>10</Medieval_Crossbowman>
+          <Medieval_EliteArcher>10</Medieval_EliteArcher>
+          <Medieval_Mercenary>5</Medieval_Mercenary>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Medieval_Warrior>10</Medieval_Warrior>
+          <Medieval_Crossbowman>10</Medieval_Crossbowman>
+          <Medieval_EliteArcher>10</Medieval_EliteArcher>
+          <Medieval_Mercenary>5</Medieval_Mercenary>
+          <Medieval_Royal>3</Medieval_Royal>
+          <Medieval_Lord>1</Medieval_Lord>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  </FactionDef>
+  <FactionDef ParentName="MedievalBase">
+    <defName>MedievalCivil</defName>
+    <label>gentle medieval settlement</label>
+    <description>These people have establish a settlement for a very long time, and advanced to medieval-like society from previous tribes. \n\nDespite their apparent technological weakness, the medieval settlement can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular medieval settlement pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
+    <colorSpectrum>
+      <li>(0.85, 0.75, 0.37)</li>
+      <li>(0.95, 0.95, 0.37)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-0</min>
+      <max>0</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-50</min>
+      <max>50</max>
+    </naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef ParentName="MedievalBase">
+    <defName>MedievalRough</defName>
+    <label>savage medieval settlement</label>
+    <description>These people have establish a settlement for a very long time, and advanced to medieval-like society from previous tribes. \n\nDespite their apparent technological weakness, the medieval settlement can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular medieval settlement values warlike dominance; it may be difficult to turn them into an ally.</description>
+    <colorSpectrum>
+      <li>(0.25, 0.65, 0.05)</li>
+      <li>(0.25, 0.75, 0.05)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-20</min>
+      <max>-20</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-80</max>
+    </naturalColonyGoodwill>
+  </FactionDef>
+  <FactionDef>
+    <defName>Medieval_Bandit</defName>
+    <label>bandit band</label>
+    <description>A group of bandits gathered for their own purposes.\n\nBandits don't sow, they don't build, and they rarely trade. Driven by a blood-and-honor culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbors.\n\nTheir technology level depends mostly on who they've managed to steal from recently. They have a preferrance for setting fire.</description>
+    <pawnSingular>bandit</pawnSingular>
+    <pawnsPlural>bandits</pawnsPlural>
+    <listOrderPriority>9</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>boss</leaderTitle>
+    <expandingIconTexture>World/WorldObjects/BanditSettlement</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.45, 0.05, 0.05)</li>
+      <li>(0.80, 0.25, 0.05)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <factionNameMaker>NamerFactionPirate</factionNameMaker>
+    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>Raider</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Medieval_Bandit>30</Medieval_Bandit>
+          <Medieval_EliteBandit>15</Medieval_EliteBandit>
+          <Medieval_BanditBoss>5</Medieval_BanditBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, poor only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Medieval_Bandit>50</Medieval_Bandit>
+          <PirateBoss>5</PirateBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, good only -->
+        <kindDef>Combat</kindDef>
+        <commonality>40</commonality>
+        <options>
+          <Medieval_EliteBandit>25</Medieval_EliteBandit>
+          <Medieval_BanditBoss>5</Medieval_BanditBoss>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Medieval_Bandit>30</Medieval_Bandit>
+          <Medieval_EliteBandit>15</Medieval_EliteBandit>
+          <Medieval_BanditBoss>5</Medieval_BanditBoss>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  </FactionDef>
+</Defs>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Medieval_Peasant.label>农奴</Medieval_Peasant.label>
+  <Medieval_Archer.label>弓兵</Medieval_Archer.label>
+  <Medieval_Bandit.label>山贼</Medieval_Bandit.label>
+  <Medieval_Warrior.label>战士</Medieval_Warrior.label>
+  <Medieval_Crossbowman.label>弩兵</Medieval_Crossbowman.label>
+  <Medieval_Crossbowman.labelPlural>弩兵</Medieval_Crossbowman.labelPlural>
+  <Medieval_EliteArcher.label>精锐弓兵</Medieval_EliteArcher.label>
+  <Medieval_EliteBandit.label>精锐山贼</Medieval_EliteBandit.label>
+  <Medieval_Trader.label>商人</Medieval_Trader.label>
+  <Medieval_Knight.label>骑士</Medieval_Knight.label>
+  <Medieval_Royal.label>禁卫军</Medieval_Royal.label>
+  <Medieval_Mercenary.label>雇佣兵</Medieval_Mercenary.label>
+  <Medieval_Mercenary.labelPlural>雇佣兵</Medieval_Mercenary.labelPlural>
+  <Medieval_Lord.label>领主</Medieval_Lord.label>
+  <Medieval_BanditBoss.label>山贼王</Medieval_BanditBoss.label>
+</LanguageData>

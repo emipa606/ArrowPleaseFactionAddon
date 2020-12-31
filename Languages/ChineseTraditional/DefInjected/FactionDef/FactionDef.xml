@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <MedievalCivil.pawnSingular>中世紀居民</MedievalCivil.pawnSingular>
+  <MedievalCivil.pawnsPlural>中世紀居民</MedievalCivil.pawnsPlural>
+  <MedievalRough.pawnSingular>中世紀居民</MedievalRough.pawnSingular>
+  <MedievalRough.pawnsPlural>中世紀居民</MedievalRough.pawnsPlural>
+  <MedievalCivil.label>文明中世紀居民</MedievalCivil.label>
+  <MedievalCivil.leaderTitle>領主</MedievalCivil.leaderTitle>
+  <MedievalCivil.description>這些人已經在這裡居住了非常久，並且從一開始的部落文明發展到類似中世紀的社會結構。\n\n儘管他們有明顯的科技劣勢，頑強的性格、眾多的人口以及冷兵器的精湛技術讓他們成為值得結交的盟友或危險的敵人。\n\n這個部落盡力維持和平的生活方式，即便是陌生人也願意與之交易。</MedievalCivil.description>
+  <MedievalRough.label>粗鄙中世紀居民</MedievalRough.label>
+  <MedievalRough.leaderTitle>領主</MedievalRough.leaderTitle>
+  <MedievalRough.description>這些人已經在這裡居住了非常久，並且從一開始的部落文明發展到類似中世紀的社會結構。\n\n儘管他們有明顯的科技劣勢，頑強的性格、眾多的人口以及冷兵器的精湛技術讓他們成為值得結交的盟友或危險的敵人。\n\n這個部落偏好依靠戰鬥來維持地位，這表示要和他們化敵為友會比較困難。</MedievalRough.description>
+  <Medieval_Bandit.label>山賊團</Medieval_Bandit.label>
+  <Medieval_Bandit.leaderTitle>山賊王</Medieval_Bandit.leaderTitle>
+  <Medieval_Bandit.description>一群為了各自利益聚集起來的山賊。\n\n山賊們從不生產食物，不建造房子也很少交易。他們的文化建立在鮮血和榮譽之上，依據力量和殘暴衡量一個人的價值。他們的財富來自於掠奪與搶劫那些更有生產力的鄰居們。\n\n他們的科技等級主要取決於他們最近都偷到些什麼。此外，他們也很愛放火。</Medieval_Bandit.description>
+</LanguageData>
