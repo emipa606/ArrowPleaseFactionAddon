@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName = "Medieval_Warrior"]/weaponTags</xpath>
+    <value>
+      <weaponTags>
+        <li>MedievalMeleeDecent</li>
+        <li>NeolithicMeleeDecent</li>
+      </weaponTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName = "Medieval_Knight"]/weaponTags</xpath>
+    <value>
+      <weaponTags>
+        <li>MedievalMeleeDecent</li>
+        <li>MedievalMeleeAdvanced</li>
+        <li>MedievalMeleePike</li>
+      </weaponTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName = "Medieval_Royal"]/weaponTags</xpath>
+    <value>
+      <weaponTags>
+        <li>MedievalMeleeDecent</li>
+        <li>MedievalMeleeAdvanced</li>
+        <li>MedievalRanged</li>
+        <li>NeolithicRangedHeavy</li>
+        <li>MedievalMeleePike</li>
+      </weaponTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName = "Medieval_Mercenary"]/weaponTags</xpath>
+    <value>
+      <weaponTags>
+        <li>NeolithicRangedHeavy</li>
+        <li>MedievalRanged</li>
+        <li>FlamingAdvanced</li>
+        <li>MedievalMeleePike</li>
+      </weaponTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName = "Medieval_Lord"]/weaponTags</xpath>
+    <value>
+      <weaponTags>
+        <li>MedievalMeleeAdvanced</li>
+      </weaponTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[defName = "Medieval_BanditBoss"]/weaponTags</xpath>
+    <value>
+      <weaponTags>
+        <li>MedievalMeleeDecent</li>
+        <li>MedievalMeleeAdvanced</li>
+      </weaponTags>
+    </value>
+  </Operation>
+</Patch>
