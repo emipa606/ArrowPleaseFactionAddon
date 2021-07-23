@@ -1,5 +1,8 @@
 # Changelog for ArrowPleaseFactionAddon
 
+1.0.3.0 - Pirate band should now also be removable at game-start
+
+
 1.0.2.0 - Added confiurable at game-start option
 
 
