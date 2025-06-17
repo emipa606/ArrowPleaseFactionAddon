@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bulk goods trader -->
+  <Caravan_Medieval_BulkGoods.label>bulk goods trader</Caravan_Medieval_BulkGoods.label>
+  <!-- EN: explorer merchant -->
+  <Caravan_Medieval_Explorer.label>explorer merchant</Caravan_Medieval_Explorer.label>
+  <!-- EN: slaver -->
+  <Caravan_Medieval_Slaver.label>slaver</Caravan_Medieval_Slaver.label>
+  <!-- EN: war merchant -->
+  <Caravan_Medieval_WarMerchant.label>war merchant</Caravan_Medieval_WarMerchant.label>
+  <!-- EN: trader -->
+  <Visitor_Medieval_Standard.label>trader</Visitor_Medieval_Standard.label>
+</LanguageData>

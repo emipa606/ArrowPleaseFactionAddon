@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bandit band -->
+  <Medieval_Bandit.label>bandit band</Medieval_Bandit.label>
+  <!-- EN: A group of bandits gathered for their own purposes.\n\nBandits don't sow, they don't build, and they rarely trade. Driven by a blood-and-honor culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbors.\n\nTheir technology level depends mostly on who they've managed to steal from recently. They have a preferrance for setting fire. -->
+  <Medieval_Bandit.description>A group of bandits gathered for their own purposes.
+
+Bandits don't sow, they don't build, and they rarely trade. Driven by a blood-and-honor culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbors.
+
+Their technology level depends mostly on who they've managed to steal from recently. They have a preferrance for setting fire.</Medieval_Bandit.description>
+  <!-- EN: boss -->
+  <Medieval_Bandit.leaderTitle>boss</Medieval_Bandit.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Medieval_Bandit.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Medieval_Bandit.messageDefendersAttacking>
+  <!-- EN: bandit -->
+  <Medieval_Bandit.pawnSingular>bandit</Medieval_Bandit.pawnSingular>
+  <!-- EN: bandits -->
+  <Medieval_Bandit.pawnsPlural>bandits</Medieval_Bandit.pawnsPlural>
+  <!-- EN: gentle medieval settlement -->
+  <MedievalCivil.label>gentle medieval settlement</MedievalCivil.label>
+  <!-- EN: These people have establish a settlement for a very long time, and advanced to medieval-like society from previous tribes. \n\nDespite their apparent technological weakness, the medieval settlement can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular medieval settlement pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples. -->
+  <MedievalCivil.description>These people have establish a settlement for a very long time, and advanced to medieval-like society from previous tribes. 
+
+Despite their apparent technological weakness, the medieval settlement can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.
+
+This particular medieval settlement pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</MedievalCivil.description>
+  <!-- EN: lord -->
+  <MedievalCivil.leaderTitle>lord</MedievalCivil.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <MedievalCivil.messageDefendersAttacking>{0} from {1} are attacking your {2}.</MedievalCivil.messageDefendersAttacking>
+  <!-- EN: medieval settler -->
+  <MedievalCivil.pawnSingular>medieval settler</MedievalCivil.pawnSingular>
+  <!-- EN: medieval settlers -->
+  <MedievalCivil.pawnsPlural>medieval settlers</MedievalCivil.pawnsPlural>
+  <!-- EN: savage medieval settlement -->
+  <MedievalRough.label>savage medieval settlement</MedievalRough.label>
+  <!-- EN: These people have establish a settlement for a very long time, and advanced to medieval-like society from previous tribes. \n\nDespite their apparent technological weakness, the medieval settlement can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular medieval settlement values warlike dominance; its not possible to turn them into an ally. -->
+  <MedievalRough.description>These people have establish a settlement for a very long time, and advanced to medieval-like society from previous tribes. 
+
+Despite their apparent technological weakness, the medieval settlement can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.
+
+This particular medieval settlement values warlike dominance; its not possible to turn them into an ally.</MedievalRough.description>
+  <!-- EN: lord -->
+  <MedievalRough.leaderTitle>lord</MedievalRough.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <MedievalRough.messageDefendersAttacking>{0} from {1} are attacking your {2}.</MedievalRough.messageDefendersAttacking>
+  <!-- EN: medieval settler -->
+  <MedievalRough.pawnSingular>medieval settler</MedievalRough.pawnSingular>
+  <!-- EN: medieval settlers -->
+  <MedievalRough.pawnsPlural>medieval settlers</MedievalRough.pawnsPlural>
+</LanguageData>

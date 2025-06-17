@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: archer -->
+  <Medieval_Archer.label>archer</Medieval_Archer.label>
+  <!-- EN: bandit -->
+  <Medieval_Bandit.label>bandit</Medieval_Bandit.label>
+  <!-- EN: bandit boss -->
+  <Medieval_BanditBoss.label>bandit boss</Medieval_BanditBoss.label>
+  <!-- EN: bandit bosses -->
+  <Medieval_BanditBoss.labelPlural>bandit bosses</Medieval_BanditBoss.labelPlural>
+  <!-- EN: crossbowman -->
+  <Medieval_Crossbowman.label>crossbowman</Medieval_Crossbowman.label>
+  <!-- EN: crossbowmen -->
+  <Medieval_Crossbowman.labelPlural>crossbowmen</Medieval_Crossbowman.labelPlural>
+  <!-- EN: elite archer -->
+  <Medieval_EliteArcher.label>elite archer</Medieval_EliteArcher.label>
+  <!-- EN: elite bandit -->
+  <Medieval_EliteBandit.label>elite bandit</Medieval_EliteBandit.label>
+  <!-- EN: knight -->
+  <Medieval_Knight.label>knight</Medieval_Knight.label>
+  <!-- EN: lord -->
+  <Medieval_Lord.label>lord</Medieval_Lord.label>
+  <!-- EN: mercenary -->
+  <Medieval_Mercenary.label>mercenary</Medieval_Mercenary.label>
+  <!-- EN: mercenaries -->
+  <Medieval_Mercenary.labelPlural>mercenaries</Medieval_Mercenary.labelPlural>
+  <!-- EN: peasant -->
+  <Medieval_Peasant.label>peasant</Medieval_Peasant.label>
+  <!-- EN: royal guard -->
+  <Medieval_Royal.label>royal guard</Medieval_Royal.label>
+  <!-- EN: trader -->
+  <Medieval_Trader.label>trader</Medieval_Trader.label>
+  <!-- EN: crossbowmen -->
+  <Medieval_Trader.labelPlural>crossbowmen</Medieval_Trader.labelPlural>
+  <!-- EN: warrior -->
+  <Medieval_Warrior.label>warrior</Medieval_Warrior.label>
+</LanguageData>
